@@ -1,11 +1,10 @@
 import React from 'react';
+import { AlbumList } from './';
 
 function App() {
   return (
     <div className="App">
-      <p>
-        <span>Test</span>
-      </p>
+      <AlbumList />
     </div>
   );
 }
